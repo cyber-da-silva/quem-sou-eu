@@ -1,0 +1,100 @@
+h2{
+   background-color: rgb(46, 117, 46);
+   text-align: center;
+   color: rgb(254, 255, 255);
+}
+.container{
+   display:flex;
+   justify-content: center;
+   width: 200px;
+   height: 200px;
+}
+.tabela{
+   display: flex;
+   justify-content: center;
+   text-align: center;
+}
+.lista{
+   display: flex;
+   justify-content: center;
+}
+.divisor{
+   background-color: rgb(46, 117, 46);
+}
+body{
+   background-color: oklab(97.122% -0.03594 0.02484);
+}
+
+/*tablet*/
+@media (max-width: 800px) {
+   body{
+      background-color: rgb(86, 165, 95);
+   }
+   .divisor{
+      background-color: rgb(4, 84, 13);
+   }
+   h2{
+      background-color: rgb(4, 84, 13);
+      text-align: center;
+      color: rgb(254, 255, 255);
+   }
+   p{
+      text-align: center;
+      color: rgb(254, 255, 255);
+   }
+   .container{
+      width: 100%;
+      height: auto;
+   }
+   .tabela{
+      width: 100%;
+      height: auto;
+     tr{
+      color: rgb(254, 255, 255);
+     }
+   }
+   .lista{
+      width: 100%;
+      height: auto;
+      ol{
+         color: rgb(254, 255, 255);
+      }
+   }
+}
+
+/*celular*/
+@media (max-width: 600px) {
+   body{
+      background-color: rgb(0, 0, 0);
+   }
+   .divisor{
+      background-color: rgb(88, 88, 88);
+   }
+   h2{
+      background-color: rgb(88, 88, 88);
+      text-align: center;
+      color: rgb(254, 255, 255);
+   }
+   p{
+      text-align: center;
+      color: rgb(254, 255, 255);
+   }
+   .container{
+      width: 100%;
+      height: auto;
+   }
+   .tabela{
+      width: 100%;
+      height: auto;
+     tr{
+      color: rgb(254, 255, 255);
+     }
+   }
+   .lista{
+      width: 100%;
+      height: auto;
+      ol{
+         color: rgb(254, 255, 255);
+      }
+   }
+}
