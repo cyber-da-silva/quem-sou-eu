@@ -16,6 +16,7 @@ h2{
    display: flex;
    justify-content: center;
    text-align: center;
+   color:oklab(97.122% -0.03594 0.02484);
 }
 .tabela{
    display: flex;
